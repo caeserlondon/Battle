@@ -18,5 +18,6 @@ get '/mark' do
 end
 
 get '/cat' do
+  @cat_name = ["Amigo", "Misty", "Almond"].sample
   erb(:index)
 end
