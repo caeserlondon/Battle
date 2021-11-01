@@ -17,7 +17,13 @@ get '/mark' do
   "Mark"
 end
 
-get '/cat' do
-  @cat_name = ["Amigo", "Misty", "Almond"].sample
+get '/random-cat' do
+  @name = ["Amigo", "Misty", "Almond"].sample
+  erb(:index)
+end
+
+get '/named-cat' do
+  # p params
+  @name = params[:name]
   erb(:index)
 end
