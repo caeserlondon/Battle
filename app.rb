@@ -16,3 +16,9 @@ end
 get '/mark' do
   "Mark"
 end
+
+get '/cat' do
+  "<div>
+  <img src='https://imgur.com/jFaSxym'>
+  </div>"
+end
