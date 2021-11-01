@@ -18,7 +18,7 @@ get '/mark' do
 end
 
 get '/cat' do
-  "<div>
-  <img src='https://imgur.com/jFaSxym'>
+  "<div style='border: 3px dashed red'>
+  <img src='https://i.imgur.com/jFaSxym.png'>
   </div>"
 end
