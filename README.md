@@ -4,6 +4,8 @@ Task from Week 3 on the Makers bootcamp. This task was completed during daily pa
 
 Day 1 partner --> [Mark McLeod](https://github.com/Cloudy1986) - Challenges 1 to 13 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made a particular effort to slow down and read back what we had done before testing it to make sure we understood what we thought the output would be to check our understading of the concept was correct before moving on.
 
+Day 1 partner --> [Madihah](https://github.com/DoodleDeBug) - Challenges 13 to 18 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. 
+
 ## About the task
 
 This week's task has the purpose of developing our skills doing the following:
@@ -70,3 +72,24 @@ This week's task has the purpose of developing our skills doing the following:
 #### Challenge 13
 **Learning Objectives covered**
 - Use a `form` element to construct a query string :white_check_mark:
+
+#### Challenge 14
+**Learning Objectives covered**
+- Write a route that handles a `POST` request :white_check_mark:
+
+#### Challenge 15
+**Learning Objectives covered**
+- Use the Chrome DevTools to investigate network requests :white_check_mark:
+
+#### Challenge 16
+**Learning Objectives covered**
+- Understand what Capybara is used for :white_check_mark:
+- Send instructions to an automated browser with Capybara :white_check_mark:
+
+#### Challenge 17
+**Learning Objectives covered**
+- Set up a web project with Testing frameworks :white_check_mark:
+
+#### Challenge 18
+**Learning Objectives covered**
+- Write and pass a feature test using Capybara :white_check_mark:
