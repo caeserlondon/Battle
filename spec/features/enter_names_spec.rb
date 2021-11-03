@@ -8,9 +8,10 @@
 feature 'Enter player names' do
   scenario 'players can fill in their names and see those names on screen' do
     visit('/')
-    fill_in :player_one_name, with: 'Toby'
-    fill_in :player_two_name, with: 'Mike'
+    fill_in :player_one_name, with: 'Ryan'
+    fill_in :player_two_name, with: 'Caeser'
     click_button 'Submit'
-    expect(page).to have_content "Toby vs. Mike"
+    save_and_open_page
+    expect(page).to have_content "Ryan vs. Caeser"
   end
 end

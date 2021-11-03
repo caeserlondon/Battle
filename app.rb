@@ -7,7 +7,6 @@ class Battle < Sinatra::Base
     register Sinatra::Reloader
   end
 
- 
   get '/' do
     erb :index
   end
@@ -23,4 +22,5 @@ class Battle < Sinatra::Base
     @player_two_name = session[:player_two_name]
     erb :play
   end
+
 end
