@@ -9,6 +9,7 @@ source "https://rubygems.org"
   gem 'reel'
   gem "http"
   gem 'webrick'
+  gem 'launchy'
 
 ruby '3.0.2'
 
