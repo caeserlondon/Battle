@@ -24,10 +24,10 @@ class Battle < Sinatra::Base
   end
 
   get '/attack' do
+    @player_one = $player_one
+    @player_two = $player_two
     @player_one_name = $player_one.name
     @player_two_name = $player_two.name
-    @player_one_attacked = $player_one.lose_hp
-    @player_two_attacked = $player_two.lose_hp
     erb :attack
   end
 

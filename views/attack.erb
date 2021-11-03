@@ -1,2 +1,2 @@
 <%= @player_one_name %> attacked <%= @player_two_name %>
-<%= @player_two_name %> has <%= @player_two_attacked %>HP
+<%= @player_two_name %> has <%= Game.new.attack(@player_two) %>HP

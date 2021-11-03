@@ -1,6 +1,6 @@
 require 'player'
 
-describe 'player name' do
+describe 'player' do
   subject(:ryan) { Player.new('Ryan') }
   subject(:caeser) { Player.new('Caeser') }
   
@@ -13,12 +13,6 @@ describe 'player name' do
   describe '#hp' do
     it 'returns player hp' do
       expect(subject.hp).to eq Player::DEFAULT_HP
-    end
-  end
-
-  describe '#attack' do
-    it 'reduces other players hp by 10' do
-      expect{ ryan.attack(caeser) }.to change { caeser.hp }.by(-10)
     end
   end
 
