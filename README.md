@@ -2,10 +2,6 @@
 
 Task from Week 3 on the Makers bootcamp. This task was completed during daily pair-programming sessions with a new partner daily.
 
-Day 1 partner --> [Mark McLeod](https://github.com/Cloudy1986) - Challenges 1 to 13 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. We made a particular effort to slow down and read back what we had done before testing it to make sure we understood what we thought the output would be to check our understading of the concept was correct before moving on.
-
-Day 1 partner --> [Madihah](https://github.com/DoodleDeBug) - Challenges 13 to 18 completed. We paired using the driver-navigator technique to push-pull commits to our own machines as we took turns. 
-
 ## About the task
 
 This week's task has the purpose of developing our skills doing the following:
